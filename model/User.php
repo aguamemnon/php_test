@@ -16,6 +16,7 @@ class User  {
         $this->password = $password;
         $this->role = $role;
         $this->license_key = $license_key;
+        $this->theme = $theme;
     }
 
      // Getter pour ID
@@ -47,6 +48,8 @@ class User  {
     public function getLicenseStatus() {
         return $this->license_status;
     }
+    public function getTheme() {
+        return $this->theme; }
     // Getters et setters
      public function checkLicense()
     {
