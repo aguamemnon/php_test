@@ -14,7 +14,6 @@ use Application\Controller\LicenseController;
 
 
 
-
 // Configuration des erreurs
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
