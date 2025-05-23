@@ -78,7 +78,8 @@ class SoftwareLicenseManager
                 $user['email'],
                 $user['password'],
                 $user['role'],
-                $user['license_key']
+                $user['license_key'],
+                $user['theme']
             );
         }
         return null;

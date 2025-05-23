@@ -1,8 +1,6 @@
 <?php
-ob_clean();
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
+session_start();
+
 require __DIR__ . '/vendor/autoload.php';
 
 use Application\Security\CSRF;
@@ -11,8 +9,7 @@ use Application\Controller\DashboardController;
 use Application\Controller\ProfileController;
 use Application\Controller\AdminController;
 use Application\Controller\LicenseController;
-
-
+use Application\Controller\ThemeController;
 
 // Configuration des erreurs
 error_reporting(E_ALL);
@@ -22,7 +19,7 @@ ini_set('display_startup_errors', 1);
 // Configuration de la sécurité
 $config =  include __DIR__ .  '/config/application.php';
 //rint_r($config); // Pour debug
-$csrf = new CSRF($_SESSION, $config['security']['csrf']['secret_key']);
+//$csrf = new CSRF($_SESSION, $config['security']['csrf']['secret_key']);
 
 // Vérifier si les variables de requête existent
 $requestUri = isset($_SERVER['REQUEST_URI']) ? parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) : '/'; 
@@ -41,6 +38,9 @@ $controllers = [
     '/license' => [LicenseController::class, 'showLicense'],
     '/license/validate' => [LicenseController::class, 'validateLicense'],
     '/license/renew' => [LicenseController::class, 'renewLicense'],
+    '/theme' => [ThemeController::class,'showThemes'],
+'/theme/set' => [ThemeController::class,'setTheme']
+    
 ];
 
 // // Gérer la redirection par défaut

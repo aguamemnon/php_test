@@ -1,21 +1,10 @@
 <?php
 session_start();
-require_once '../controller/ThemeController.php';
-?>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Configuration du thème</title>
-    <link href="https://cdn.jsdelivr.net/npm@admin-lte/dist/css/adminlte.min.css" rel="stylesheet">
-    <?php
+require_once __DIR__.'/../controller/ThemeController.php';
+
     $theme = isset($_SESSION['user']['theme']) ? $_SESSION['user']['theme'] : 'default';
-    echo "<link href='https://cdn.jsdelivr.net/npm@admin-lte/dist/css/$theme.min.css' rel='stylesheet'>";
-    ?>
-</head>
-<body class="hold-transition sidebar-mini">
-    <div class="wrapper">
-        <?php require_once '../view/header.php'; ?>
+ require_once __DIR__.'/header.php'; 
+ require_once __DIR__.'/menu.php';?>
 
         <div class="content-wrapper">
             <section class="content">
@@ -41,7 +30,5 @@ require_once '../controller/ThemeController.php';
                 </div>
             </section>
         </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm@admin-lte/dist/js/adminlte.min.js"></script>
-</body>
-</html>
+<?php
+ require_once __DIR__.'/footer.php'; ?>

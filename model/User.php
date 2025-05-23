@@ -8,8 +8,8 @@ class User  {
     private $password;
     private $role;
     private $license_key;
-
-    public function __construct($id, $username, $email, $password, $role, $license_key) {
+    private  $theme;
+    public function __construct($id, $username, $email, $password, $role, $license_key, $theme) {
         $this->id = $id;
         $this->username = $username;
         $this->email = $email;

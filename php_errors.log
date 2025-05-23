@@ -1707,3 +1707,1080 @@ Stack trace:
 [22-May-2025 18:31:49 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
 [22-May-2025 18:32:00 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
 [22-May-2025 18:32:01 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 18:44:50 UTC] PHP Notice:  Undefined index: username in /var/www/demo/essai/public_html/controller/LoginController.php on line 19
+[22-May-2025 18:44:52 UTC] PHP Notice:  Undefined index: password in /var/www/demo/essai/public_html/controller/LoginController.php on line 20
+[22-May-2025 18:44:54 UTC] PHP Notice:  Undefined index: csrfToken in /var/www/demo/essai/public_html/controller/LoginController.php on line 21
+[22-May-2025 18:48:26 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/demo/essai/public_html/controller/CSRF.php:44
+Stack trace:
+#0 /var/www/demo/essai/public_html/controller/LoginController.php(23): Application\Security\CSRF::validate()
+#1 /var/www/demo/essai/public_html/index.php(56): Application\Controller\LoginController->loginUser()
+#2 {main}
+  thrown in /var/www/demo/essai/public_html/controller/CSRF.php on line 44
+[22-May-2025 19:14:40 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/demo/essai/public_html/controller/CSRF.php:44
+Stack trace:
+#0 /var/www/demo/essai/public_html/controller/LoginController.php(23): Application\Security\CSRF::validate()
+#1 /var/www/demo/essai/public_html/index.php(56): Application\Controller\LoginController->loginUser()
+#2 {main}
+  thrown in /var/www/demo/essai/public_html/controller/CSRF.php on line 44
+[22-May-2025 19:22:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:22:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:22:50 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:22:51 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:22:51 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:25:02 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:25:03 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:25:08 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:25:08 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:25:09 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:26:07 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:26:07 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:26:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:26:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:26:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:27:32 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:27:32 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 5
+[22-May-2025 19:27:32 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:27:32 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 5
+[22-May-2025 19:27:32 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 3
+[22-May-2025 19:27:32 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:27:39 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:27:39 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 5
+[22-May-2025 19:27:39 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:27:39 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 5
+[22-May-2025 19:27:39 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 3
+[22-May-2025 19:28:06 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 5
+[22-May-2025 19:39:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 5
+[22-May-2025 19:39:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 3
+[22-May-2025 19:40:07 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 5
+[22-May-2025 19:40:08 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 5
+[22-May-2025 19:40:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 3
+[22-May-2025 19:40:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 5
+[22-May-2025 19:41:23 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 5
+[22-May-2025 19:43:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:43:39 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:43:39 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:44:16 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:44:22 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:44:22 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:46:07 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:46:07 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 19:46:07 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 19:46:07 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:46:12 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:46:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 19:46:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:46:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 19:46:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 19:52:55 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:52:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 19:52:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 19:52:55 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:53:01 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:53:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 19:53:02 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:53:02 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 19:53:02 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 19:55:32 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:55:32 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 19:55:32 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 19:55:32 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:55:40 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 19:55:40 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 19:55:40 UTC] PHP Deprecated:  Non-static method Application\Security\CSRF::validateToken() should not be called statically in /var/www/demo/essai/public_html/controller/LoginController.php on line 24
+[22-May-2025 19:55:40 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/demo/essai/public_html/controller/CSRF.php:27
+Stack trace:
+#0 /var/www/demo/essai/public_html/controller/LoginController.php(24): Application\Security\CSRF::validateToken()
+#1 /var/www/demo/essai/public_html/index.php(55): Application\Controller\LoginController->loginUser()
+#2 {main}
+  thrown in /var/www/demo/essai/public_html/controller/CSRF.php on line 27
+[22-May-2025 20:03:22 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:03:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:03:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 20:03:23 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:03:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:03:29 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:03:29 UTC] PHP Notice:  Undefined variable: csrf in /var/www/demo/essai/public_html/controller/LoginController.php on line 24
+[22-May-2025 20:03:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function validateToken() on null in /var/www/demo/essai/public_html/controller/LoginController.php:24
+Stack trace:
+#0 /var/www/demo/essai/public_html/index.php(55): Application\Controller\LoginController->loginUser()
+#1 {main}
+  thrown in /var/www/demo/essai/public_html/controller/LoginController.php on line 24
+[22-May-2025 20:12:36 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:25:47 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:25:47 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:25:47 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 20:25:47 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:25:52 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:25:52 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:25:52 UTC] PHP Notice:  Undefined variable: csrf in /var/www/demo/essai/public_html/controller/LoginController.php on line 24
+[22-May-2025 20:25:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function validateToken() on null in /var/www/demo/essai/public_html/controller/LoginController.php:24
+Stack trace:
+#0 /var/www/demo/essai/public_html/index.php(55): Application\Controller\LoginController->loginUser()
+#1 {main}
+  thrown in /var/www/demo/essai/public_html/controller/LoginController.php on line 24
+[22-May-2025 20:29:07 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:29:08 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 20:29:23 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:29:36 UTC] PHP Notice:  Undefined variable: csrf in /var/www/demo/essai/public_html/controller/LoginController.php on line 24
+[22-May-2025 20:29:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function validateToken() on null in /var/www/demo/essai/public_html/controller/LoginController.php:24
+Stack trace:
+#0 /var/www/demo/essai/public_html/index.php(55): Application\Controller\LoginController->loginUser()
+#1 {main}
+  thrown in /var/www/demo/essai/public_html/controller/LoginController.php on line 24
+[22-May-2025 20:30:40 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:30:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 20:30:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:33:15 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:33:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:33:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 20:33:21 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:33:21 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:33:21 UTC] PHP Fatal error:  Uncaught Error: Class 'Application\Controller\Application\Security\CSRF' not found in /var/www/demo/essai/public_html/controller/LoginController.php:24
+Stack trace:
+#0 /var/www/demo/essai/public_html/index.php(55): Application\Controller\LoginController->loginUser()
+#1 {main}
+  thrown in /var/www/demo/essai/public_html/controller/LoginController.php on line 24
+[22-May-2025 20:34:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:34:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:34:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 20:34:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:34:19 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:34:19 UTC] PHP Notice:  Undefined variable: config in /var/www/demo/essai/public_html/controller/LoginController.php on line 24
+[22-May-2025 20:34:19 UTC] PHP Notice:  Trying to access array offset on value of type null in /var/www/demo/essai/public_html/controller/LoginController.php on line 24
+[22-May-2025 20:34:19 UTC] PHP Notice:  Trying to access array offset on value of type null in /var/www/demo/essai/public_html/controller/LoginController.php on line 24
+[22-May-2025 20:34:19 UTC] PHP Notice:  Trying to access array offset on value of type null in /var/www/demo/essai/public_html/controller/LoginController.php on line 24
+[22-May-2025 20:34:19 UTC] PHP Notice:  Undefined variable: 84322aa3bde9861c0e946436950bde034f4bda2caa45947f7bdfb81657b9b511 in /var/www/demo/essai/public_html/controller/LoginController.php on line 25
+[22-May-2025 20:34:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:34:19 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:34:19 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 20:34:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:36:21 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:36:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 20:36:37 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:37:50 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:37:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:37:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 20:37:56 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:37:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:37:56 UTC] PHP Notice:  Undefined variable: 8edc7c4ce38527874622c373addca47dc5d375520dc18995008689108d16cbdd in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 20:37:56 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:37:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:37:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 20:38:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:39:09 UTC] PHP Notice:  Undefined variable: ddd6c6e16502d55b72e38dc6f0358ac92ec9865e9b7966a3da055d985e8a33b4 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 20:39:47 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:39:47 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:39:47 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 20:39:53 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:39:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:39:53 UTC] PHP Notice:  Undefined variable: 65c3eb36840f2e62209ebc96dc1d1c17a25b669897e0b52f258f8121d01267d5 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 20:39:53 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 20:39:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 20:39:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 21:17:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:17:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 21:17:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 21:17:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:17:40 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:17:40 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 21:17:40 UTC] PHP Notice:  Undefined variable: 64b1b6ea62ddcb6538f162b6f7b02787367b8ae5b8ba2f66fbf302f0ee3b2e94 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 21:17:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:17:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 21:17:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 21:18:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 21:18:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:18:52 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:18:52 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 21:18:52 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 21:21:51 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:21:51 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 21:21:51 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 21:21:51 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:21:58 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:21:58 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 21:21:58 UTC] PHP Notice:  Undefined variable: bdfdf6526505cc21be778f75d548a343900cada558e15362cf21c9738bf51c4f in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 21:21:58 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:21:58 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 21:21:58 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 21:21:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:22:10 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:22:10 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 21:22:10 UTC] PHP Notice:  Undefined variable: 9cf3c629382459bfb4d32c79d16fce3467f4a57767c34d1da5a96149caf513c6 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 21:22:10 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:22:10 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 21:22:10 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 21:22:29 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 21:23:00 UTC] PHP Notice:  Undefined variable: a12fbcf09f1322d3e6d7c2d93d3ec9750bda9b18c8702a5afa13ef1a90335baa in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 21:23:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 21:23:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 21:23:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 21:23:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 21:23:16 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 21:23:16 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 4
+[22-May-2025 21:23:30 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/LoginController.php on line 6
+[22-May-2025 21:25:45 UTC] PHP Notice:  Undefined variable: 7000904466463c1df2d20ba7be0531d5e367a57e41b153efc97ea63de440b2f4 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 21:33:49 UTC] PHP Notice:  Undefined variable: c8f229c349800fd6cc2486b7be282a4a366d15d2e4376b14253beaae50e3e93f in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 21:33:49 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 21:33:51 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 21:34:52 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 21:35:25 UTC] PHP Notice:  Undefined variable: 8c10ae7b3add4c210a2e4af9694bbd490c6c35592f9232d9360b9f678290fa07 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 21:35:26 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 21:37:05 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:37:05 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 21:37:14 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:37:14 UTC] PHP Notice:  Undefined variable: 8dd5ae95c7caa21902c4ae110f271a923e78697a32733ca273f0e72cfb53a735 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 21:37:14 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:37:14 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 21:38:38 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:38:39 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:41:02 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:41:02 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:41:02 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 21:41:03 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:41:03 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:41:14 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:41:14 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:41:14 UTC] PHP Notice:  Undefined variable: 70b3421912c5a840376cfb1b61ef414ea8fb7009c6400ce1ae7bf4de3003cf54 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 21:41:15 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:41:15 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:41:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 21:41:15 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:41:15 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:49:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:49:41 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:49:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 21:49:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:49:41 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:49:48 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:49:48 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:49:48 UTC] PHP Notice:  Undefined variable: 80e2ec2d4fc3e50cbacb54f2f440afb05d264636c8bb4bf8b388452f7a3b7d62 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 21:49:48 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:49:48 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:49:48 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 21:50:00 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:50:00 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:50:00 UTC] PHP Notice:  Undefined variable: 80e2ec2d4fc3e50cbacb54f2f440afb05d264636c8bb4bf8b388452f7a3b7d62 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 21:50:00 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:50:00 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:50:00 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 21:50:28 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:50:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 21:50:34 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:50:43 UTC] PHP Notice:  Undefined variable: 80e2ec2d4fc3e50cbacb54f2f440afb05d264636c8bb4bf8b388452f7a3b7d62 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 21:51:43 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:51:43 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:51:43 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 21:51:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:51:54 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:51:54 UTC] PHP Notice:  Undefined variable: 80e2ec2d4fc3e50cbacb54f2f440afb05d264636c8bb4bf8b388452f7a3b7d62 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 21:51:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 21:51:54 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:51:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 21:52:11 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 21:52:18 UTC] PHP Notice:  Undefined variable: 80e2ec2d4fc3e50cbacb54f2f440afb05d264636c8bb4bf8b388452f7a3b7d62 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 22:01:28 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:01:28 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:01:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 22:01:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:01:29 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:01:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:01:34 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:01:34 UTC] PHP Notice:  Undefined variable: 80e2ec2d4fc3e50cbacb54f2f440afb05d264636c8bb4bf8b388452f7a3b7d62 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 22:01:35 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:01:35 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:01:35 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 22:01:40 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:01:40 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:01:40 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 22:01:55 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:02:00 UTC] PHP Notice:  Undefined variable: 80e2ec2d4fc3e50cbacb54f2f440afb05d264636c8bb4bf8b388452f7a3b7d62 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 22:02:00 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:02:00 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 22:02:11 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:02:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 22:02:19 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:02:37 UTC] PHP Notice:  Undefined variable: 80e2ec2d4fc3e50cbacb54f2f440afb05d264636c8bb4bf8b388452f7a3b7d62 in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 22:03:38 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:03:38 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 22:03:46 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:04:05 UTC] PHP Notice:  Undefined variable: 1eaa35f1edcf00807ed511ec2697fd5a0aac574a03ac081f1b28e2c44ed475fc in /var/www/demo/essai/public_html/controller/LoginController.php on line 26
+[22-May-2025 22:04:05 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:04:05 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 22:04:05 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:04:25 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:04:30 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:04:30 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 22:04:52 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:07:39 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:07:39 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:07:39 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 22:07:39 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:07:39 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:07:44 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:07:44 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:07:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:07:45 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:07:45 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /var/www/demo/essai/public_html/model/SoftwareLicenseManager.php on line 5
+[22-May-2025 22:07:45 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Application\Model\User::__construct(), 6 passed in /var/www/demo/essai/public_html/model/SoftwareLicenseManager.php on line 81 and exactly 7 expected in /var/www/demo/essai/public_html/model/User.php:12
+Stack trace:
+#0 /var/www/demo/essai/public_html/model/SoftwareLicenseManager.php(81): Application\Model\User->__construct()
+#1 /var/www/demo/essai/public_html/controller/DashboardController.php(29): SoftwareLicenseManager->getUserData()
+#2 /var/www/demo/essai/public_html/index.php(54): Application\Controller\DashboardController->showDashboard()
+#3 {main}
+  thrown in /var/www/demo/essai/public_html/model/User.php on line 12
+[22-May-2025 22:07:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:07:45 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /var/www/demo/essai/public_html/index.php on line 17
+[22-May-2025 22:08:31 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:08:31 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 22:08:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:08:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:08:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Application\Model\User::__construct(), 6 passed in /var/www/demo/essai/public_html/model/SoftwareLicenseManager.php on line 81 and exactly 7 expected in /var/www/demo/essai/public_html/model/User.php:12
+Stack trace:
+#0 /var/www/demo/essai/public_html/model/SoftwareLicenseManager.php(81): Application\Model\User->__construct()
+#1 /var/www/demo/essai/public_html/controller/DashboardController.php(29): SoftwareLicenseManager->getUserData()
+#2 /var/www/demo/essai/public_html/index.php(54): Application\Controller\DashboardController->showDashboard()
+#3 {main}
+  thrown in /var/www/demo/essai/public_html/model/User.php on line 12
+[22-May-2025 22:11:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:11:34 UTC] PHP Warning:  The use statement with non-compound name 'PDO' has no effect in /var/www/demo/essai/public_html/model/SoftwareLicenseManager.php on line 5
+[22-May-2025 22:11:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:11:34 UTC] PHP Warning:  require_once(../controller/DashboardController.php): failed to open stream: No such file or directory in /var/www/demo/essai/public_html/view/header.php on line 3
+[22-May-2025 22:11:34 UTC] PHP Fatal error:  require_once(): Failed opening required '../controller/DashboardController.php' (include_path='.:/usr/share/php') in /var/www/demo/essai/public_html/view/header.php on line 3
+[22-May-2025 22:11:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:01 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:13:01 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:13 UTC] PHP Deprecated:  Non-static method Application\Model\Auth::user() should not be called statically in /var/www/demo/essai/public_html/controller/ProfileController.php on line 13
+[22-May-2025 22:13:13 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/demo/essai/public_html/model/Auth.php:12
+Stack trace:
+#0 /var/www/demo/essai/public_html/controller/ProfileController.php(13): Application\Model\Auth::user()
+#1 /var/www/demo/essai/public_html/index.php(54): Application\Controller\ProfileController->showProfile()
+#2 {main}
+  thrown in /var/www/demo/essai/public_html/model/Auth.php on line 12
+[22-May-2025 22:13:15 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:13:15 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:23 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:23 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:13:23 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:25 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:25 UTC] PHP Fatal error:  Uncaught Error: Class 'Application\Controller\LicenseController' not found in /var/www/demo/essai/public_html/index.php:50
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 50
+[22-May-2025 22:13:27 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:27 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:13:27 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Application\Controller\AdminController' not found in /var/www/demo/essai/public_html/index.php:50
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 50
+[22-May-2025 22:13:30 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:30 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:13:30 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:31 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:31 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:13:31 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:33 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:33 UTC] PHP Deprecated:  Non-static method Application\Model\Auth::user() should not be called statically in /var/www/demo/essai/public_html/controller/ProfileController.php on line 13
+[22-May-2025 22:13:33 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/demo/essai/public_html/model/Auth.php:12
+Stack trace:
+#0 /var/www/demo/essai/public_html/controller/ProfileController.php(13): Application\Model\Auth::user()
+#1 /var/www/demo/essai/public_html/index.php(54): Application\Controller\ProfileController->showProfile()
+#2 {main}
+  thrown in /var/www/demo/essai/public_html/model/Auth.php on line 12
+[22-May-2025 22:13:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:37 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:13:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:38 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:13:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:13:42 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:15:46 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:15:46 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:15:46 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:15:47 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:15:47 UTC] PHP Fatal error:  Uncaught Error: Class 'ThemeController' not found in /var/www/demo/essai/public_html/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 51
+[22-May-2025 22:16:00 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:16:00 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:16:01 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:16:42 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:16:42 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:16:42 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:16:43 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:16:43 UTC] PHP Fatal error:  Uncaught Error: Class 'ThemeController' not found in /var/www/demo/essai/public_html/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 51
+[22-May-2025 22:16:49 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:16:49 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 22:16:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:16:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:16:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:16:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:16:55 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:16:55 UTC] PHP Fatal error:  Uncaught Error: Class 'ThemeController' not found in /var/www/demo/essai/public_html/index.php:51
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 51
+[22-May-2025 22:17:38 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:17:38 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 22:17:44 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:17:44 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:17:44 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:17:44 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:17:46 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:17:46 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:17:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Application\Controller\ThemeController::showTheme() in /var/www/demo/essai/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 56
+[22-May-2025 22:19:08 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:19:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Application\Controller\ThemeController::showTheme() in /var/www/demo/essai/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 56
+[22-May-2025 22:21:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:21:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:21:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Application\Controller\ThemeController::showTheme() in /var/www/demo/essai/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 56
+[22-May-2025 22:22:12 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:12 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 22:22:17 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:17 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:22:18 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:23 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:23 UTC] PHP Deprecated:  Non-static method Application\Model\Auth::user() should not be called statically in /var/www/demo/essai/public_html/controller/ProfileController.php on line 13
+[22-May-2025 22:22:23 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/demo/essai/public_html/model/Auth.php:12
+Stack trace:
+#0 /var/www/demo/essai/public_html/controller/ProfileController.php(13): Application\Model\Auth::user()
+#1 /var/www/demo/essai/public_html/index.php(56): Application\Controller\ProfileController->showProfile()
+#2 {main}
+  thrown in /var/www/demo/essai/public_html/model/Auth.php on line 12
+[22-May-2025 22:22:25 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:25 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:22:25 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:26 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:26 UTC] PHP Deprecated:  Non-static method Application\Model\Auth::user() should not be called statically in /var/www/demo/essai/public_html/controller/ProfileController.php on line 13
+[22-May-2025 22:22:26 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/demo/essai/public_html/model/Auth.php:12
+Stack trace:
+#0 /var/www/demo/essai/public_html/controller/ProfileController.php(13): Application\Model\Auth::user()
+#1 /var/www/demo/essai/public_html/index.php(56): Application\Controller\ProfileController->showProfile()
+#2 {main}
+  thrown in /var/www/demo/essai/public_html/model/Auth.php on line 12
+[22-May-2025 22:22:28 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:22:28 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Application\Controller\AdminController' not found in /var/www/demo/essai/public_html/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 52
+[22-May-2025 22:22:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:30 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:30 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:22:30 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:31 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Application\Controller\LicenseController' not found in /var/www/demo/essai/public_html/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 52
+[22-May-2025 22:22:42 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:22:42 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:22:43 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:23:39 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:23:39 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:23:40 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:23:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:23:41 UTC] PHP Fatal error:  Uncaught Error: Class 'Application\Controller\AdminController' not found in /var/www/demo/essai/public_html/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 52
+[22-May-2025 22:23:51 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:23:51 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 22:23:55 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:23:56 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:23:56 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:23:56 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:23:58 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:23:58 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:23:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Application\Controller\ThemeController::showTheme() in /var/www/demo/essai/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 56
+[22-May-2025 22:24:01 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:24:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:24:01 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:24:09 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:24:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:24:09 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:24:11 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:24:11 UTC] PHP Fatal error:  Uncaught Error: Class 'Application\Controller\LicenseController' not found in /var/www/demo/essai/public_html/index.php:52
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 52
+[22-May-2025 22:24:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:24:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:24:14 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:24:28 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:24:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:24:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Application\Controller\ThemeController::showTheme() in /var/www/demo/essai/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 56
+[22-May-2025 22:26:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:28:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:28:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Application\Controller\ThemeController::showTheme() in /var/www/demo/essai/public_html/index.php:56
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 56
+[22-May-2025 22:30:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:30:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:30:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[22-May-2025 22:30:20 UTC] PHP Warning:  require_once(../controller/ThemeController.php): failed to open stream: No such file or directory in /var/www/demo/essai/public_html/view/themes.php on line 3
+[22-May-2025 22:30:20 UTC] PHP Fatal error:  require_once(): Failed opening required '../controller/ThemeController.php' (include_path='.:/usr/share/php') in /var/www/demo/essai/public_html/view/themes.php on line 3
+[22-May-2025 22:31:09 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:31:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:31:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[22-May-2025 22:31:09 UTC] PHP Warning:  require_once(../view/header.php): failed to open stream: No such file or directory in /var/www/demo/essai/public_html/view/themes.php on line 18
+[22-May-2025 22:31:09 UTC] PHP Fatal error:  require_once(): Failed opening required '../view/header.php' (include_path='.:/usr/share/php') in /var/www/demo/essai/public_html/view/themes.php on line 18
+[22-May-2025 22:31:35 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:31:35 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:31:35 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[22-May-2025 22:31:35 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:31:35 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:31:40 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:34:22 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:34:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:34:23 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:34:25 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:34:25 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:34:25 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[22-May-2025 22:34:25 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:34:25 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:34:28 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:34:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:34:28 UTC] PHP Fatal error:  Uncaught Error: Class 'Application\Controller\Database' not found in /var/www/demo/essai/public_html/controller/ThemeController.php:24
+Stack trace:
+#0 /var/www/demo/essai/public_html/index.php(58): Application\Controller\ThemeController->setTheme()
+#1 {main}
+  thrown in /var/www/demo/essai/public_html/controller/ThemeController.php on line 24
+[22-May-2025 22:34:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:35:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:35:59 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:35:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Application\Controller\redirect() in /var/www/demo/essai/public_html/controller/ThemeController.php:30
+Stack trace:
+#0 /var/www/demo/essai/public_html/index.php(58): Application\Controller\ThemeController->setTheme()
+#1 {main}
+  thrown in /var/www/demo/essai/public_html/controller/ThemeController.php on line 30
+[22-May-2025 22:36:57 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:36:57 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:36:57 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:36:57 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:36:57 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:37:00 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:37:00 UTC] PHP Fatal error:  Uncaught Error: Class 'Application\Controller\LicenseController' not found in /var/www/demo/essai/public_html/index.php:54
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 54
+[22-May-2025 22:37:03 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:37:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:37:03 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:37:32 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:37:32 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:37:33 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:38:53 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:39:04 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:39:18 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:39:38 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:39:38 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:39:39 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:41:58 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:41:58 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:41:58 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:42:01 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:42:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:42:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[22-May-2025 22:42:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:42:03 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:42:06 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:42:06 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:42:06 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:42:06 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:42:07 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:42:14 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:42:14 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:42:15 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:43:09 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:43:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:43:12 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:43:15 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:43:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:43:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[22-May-2025 22:43:15 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:43:18 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:43:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:43:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:43:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:43:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:43:23 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:43:23 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:43:23 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:43:23 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[22-May-2025 22:43:23 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:43:25 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:43:26 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:43:26 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 22:43:26 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:43:26 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 22:43:28 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:43:33 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 22:43:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Application\Controller\LicenseController' not found in /var/www/demo/essai/public_html/index.php:54
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 54
+[22-May-2025 23:09:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:09:45 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 23:09:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:09:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:10:51 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:10:51 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 23:10:51 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:10:51 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:15:35 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:15:35 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 23:15:35 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:15:35 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:15:42 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:15:42 UTC] PHP Notice:  Undefined index: csrfToken in /var/www/demo/essai/public_html/controller/LoginController.php on line 23
+[22-May-2025 23:15:42 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:15:42 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 23:15:42 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:15:42 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:18:35 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:18:35 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 23:18:35 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:18:42 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:18:42 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:18:42 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:18:43 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:19:42 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:19:42 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 23:19:42 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:19:44 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:19:44 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:19:44 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[22-May-2025 23:19:44 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:19:51 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:19:52 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:19:52 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:19:52 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:19:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:19:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 23:19:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[22-May-2025 23:19:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:19:56 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:23:17 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:23:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 23:23:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[22-May-2025 23:23:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:23:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:23:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:23:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:23:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:23:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:23:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:24:17 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:24:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 23:24:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[22-May-2025 23:24:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:24:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:24:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:24:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:24:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:24:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:24:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:24:50 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:24:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 23:24:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[22-May-2025 23:24:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:24:52 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:24:52 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:24:52 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:24:52 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:24:52 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:24:52 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:25:01 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:25:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[22-May-2025 23:25:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[22-May-2025 23:25:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:25:03 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:25:03 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:25:03 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:25:03 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:25:03 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:25:03 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:25:04 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:25:04 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:25:04 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:25:04 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:25:04 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:25:04 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:25:04 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:25:04 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:27:21 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:27:21 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:27:21 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:27:21 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:27:21 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:27:21 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:27:21 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:27:21 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:27:21 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:28:27 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:28:27 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:28:28 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:28:28 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:28:28 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:28:28 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:28:28 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:28:28 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:30:55 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:30:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:30:55 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:30:55 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:30:55 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:30:55 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:30:55 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:30:55 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:32:24 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:32:24 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:32:25 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:32:25 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:32:25 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:32:25 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:32:25 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:32:25 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:32:30 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:32:31 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:32:31 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:32:31 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:32:31 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:32:31 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:32:31 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:32:31 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:33:00 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:33:00 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:33:00 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:33:00 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:33:00 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:33:00 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:33:00 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:33:00 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:35:07 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:35:08 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:35:08 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:35:08 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:35:08 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:35:08 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:35:08 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:35:08 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:37:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:37:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:37:35 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:37:35 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:37:35 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:37:35 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:37:35 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:37:35 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:39:09 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:39:09 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:39:09 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:39:09 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:39:09 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:39:09 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:39:09 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:39:09 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:40:25 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:40:25 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:40:25 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:40:25 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:40:26 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:40:26 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:40:26 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:40:26 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:40:26 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:42:58 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:42:58 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:48:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:48:38 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:48:38 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:48:53 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:48:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:48:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:48:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:48:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:48:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:48:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:48:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:48:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:48:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:51:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:51:59 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:51:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:51:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:51:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:51:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:51:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:51:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:55:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:55:13 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:55:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:55:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:55:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:55:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:55:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:55:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:55:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:55:19 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:55:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:55:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:55:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:55:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:55:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:55:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:57:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:57:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:57:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:57:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:57:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:57:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:57:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:57:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:57:43 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:57:43 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[22-May-2025 23:57:43 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:57:43 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:57:43 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:57:43 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:57:43 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[22-May-2025 23:57:43 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:02:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:02:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 00:02:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:02:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:02:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:02:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:02:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:02:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:03:23 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:06:36 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:06:36 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 00:06:36 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:06:36 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:06:36 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:06:36 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:06:36 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:06:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:11:40 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:11:41 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 00:11:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:11:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:11:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:11:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:11:41 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:12:01 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:12:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 00:12:01 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:12:01 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:12:01 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:12:02 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:12:02 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:12:14 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:12:14 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 00:12:14 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:12:14 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:12:14 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:12:14 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 00:12:14 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:07:02 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:07:02 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:07:02 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[23-May-2025 11:07:02 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:07:02 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:27:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:27:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:27:19 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 11:27:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:27:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:27:19 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:27:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:27:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:27:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:31:38 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:31:38 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 11:31:38 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:31:38 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:31:38 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:31:39 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:31:39 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:31:39 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:29 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 11:33:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:30 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:45 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[23-May-2025 11:33:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:49 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:50 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:50 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 11:33:50 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:50 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:50 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:50 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:50 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:33:50 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:36 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:36 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 11:42:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:37 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:47 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:47 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[23-May-2025 11:42:48 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:52 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:52 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:52 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 11:42:52 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:52 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:53 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:53 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:53 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:53 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:53 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:42:53 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:46:22 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:46:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 11:46:22 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:46:22 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:46:22 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:46:22 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:46:23 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:46:23 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:46:23 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:47:17 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:47:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 11:47:17 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:47:18 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:47:18 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:47:18 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:47:18 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:47:18 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:47:18 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:49:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:49:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 11:49:34 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:50:10 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 11:50:10 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 12:38:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 12:38:46 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 12:38:46 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 12:39:58 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 12:39:58 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 12:40:01 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 12:40:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 12:40:03 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 12:40:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[23-May-2025 12:40:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[23-May-2025 12:40:03 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 12:40:11 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 12:40:11 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 12:40:13 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 12:40:13 UTC] PHP Fatal error:  Uncaught Error: Class 'Application\Controller\AdminController' not found in /var/www/demo/essai/public_html/index.php:54
+Stack trace:
+#0 {main}
+  thrown in /var/www/demo/essai/public_html/index.php on line 54
+[23-May-2025 12:40:16 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 12:40:16 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 16:43:44 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:43:44 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:43:44 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/login.php on line 2
+[23-May-2025 16:43:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:43:45 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:43:51 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:43:51 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:43:51 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 16:43:55 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:43:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[23-May-2025 16:43:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[23-May-2025 16:43:55 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 16:43:57 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:43:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:43:59 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[23-May-2025 16:43:59 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:43:59 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 16:47:28 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:47:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[23-May-2025 16:47:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[23-May-2025 16:47:28 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 16:47:28 UTC] PHP Notice:  Undefined variable: theme in /var/www/demo/essai/public_html/view/themes.php on line 18
+[23-May-2025 16:47:28 UTC] PHP Notice:  Undefined variable: theme in /var/www/demo/essai/public_html/view/themes.php on line 19
+[23-May-2025 16:47:28 UTC] PHP Notice:  Undefined variable: theme in /var/www/demo/essai/public_html/view/themes.php on line 20
+[23-May-2025 16:47:29 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:47:46 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:47:46 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[23-May-2025 16:47:46 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[23-May-2025 16:47:46 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 16:47:46 UTC] PHP Notice:  Undefined variable: theme in /var/www/demo/essai/public_html/view/themes.php on line 18
+[23-May-2025 16:47:46 UTC] PHP Notice:  Undefined variable: theme in /var/www/demo/essai/public_html/view/themes.php on line 19
+[23-May-2025 16:47:46 UTC] PHP Notice:  Undefined variable: theme in /var/www/demo/essai/public_html/view/themes.php on line 20
+[23-May-2025 16:47:46 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:49:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:49:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[23-May-2025 16:49:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[23-May-2025 16:49:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 16:49:20 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:49:22 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:49:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[23-May-2025 16:49:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[23-May-2025 16:49:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 16:49:22 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:49:54 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:49:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[23-May-2025 16:49:54 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[23-May-2025 16:49:54 UTC] PHP Warning:  require_once(/var/www/demo/essai/public_html/view/view/header.php): failed to open stream: No such file or directory in /var/www/demo/essai/public_html/view/themes.php on line 6
+[23-May-2025 16:49:54 UTC] PHP Fatal error:  require_once(): Failed opening required '/var/www/demo/essai/public_html/view/view/header.php' (include_path='.:/usr/share/php') in /var/www/demo/essai/public_html/view/themes.php on line 6
+[23-May-2025 16:50:22 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:50:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[23-May-2025 16:50:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[23-May-2025 16:50:22 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 16:52:38 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:52:38 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[23-May-2025 16:52:38 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/themes.php on line 2
+[23-May-2025 16:52:38 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 16:52:46 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:52:46 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/controller/ThemeController.php on line 4
+[23-May-2025 16:52:46 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[23-May-2025 16:52:46 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /var/www/demo/essai/public_html/view/header.php on line 2
+[23-May-2025 16:52:46 UTC] Xdebug: [Step Debug] Could not connect to debugging client. Tried: 192.168.2.57:9003 (from REMOTE_ADDR HTTP header), localhost:9003 (fallback through xdebug.client_host/xdebug.client_port) :-(

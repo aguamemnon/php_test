@@ -13,6 +13,7 @@ class CSRF {
     public function generateToken() {
         if (!isset($this->session['csrf_token'])) {
             $this->session['csrf_token'] = $this->generateSecureToken();
+            $this->session['csrf_token'] = hash_hmac('sha256', $this->session['csrf_token'] , $this->secretKey);
             $_SESSION['csrf_token'] = $this->session['csrf_token'] ;
         }
 
@@ -31,7 +32,7 @@ class CSRF {
         $storedToken =  $_SESSION['csrf_token'];
         $submittedHash = hash_hmac('sha256', $submittedToken, $this->secretKey);
 
-        return hash_equals($storedToken, $submittedHash);
+        return hash_equals(hash_hmac('sha256',$storedToken, $this->secretKey), $submittedHash);
     }
 
     private function generateSecureToken() {
@@ -39,6 +40,12 @@ class CSRF {
     }
     public static function validate($token)
     {
+
         return isset($_SESSION['csrf_token']) && $_SESSION['csrf_token'] == $token;
+
+
+
+
+
     }
 }

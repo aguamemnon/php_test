@@ -1,9 +1,9 @@
 <?php
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-require_once __DIR__ .'/../controller/CSRF.php';
-require_once  __DIR__ .'/../controller/LoginController.php';
+session_start();
+
+
+//require_once __DIR__ .'/../controller/CSRF.php';
+//require_once  __DIR__ .'/../controller/LoginController.php';
 use Application\Security\CSRF;
 $config = include __DIR__ . '/../config/application.php';
 
@@ -15,41 +15,106 @@ $config = include __DIR__ . '/../config/application.php';
     <title>Login</title>
     <link href="https://cdn.jsdelivr.net/npm/admin-lte@4.0.0-beta3/dist/css/adminlte.min.css" rel="stylesheet">
 </head>
-<body class="hold-transition login-page">
-    <div class="login-box">
-        <div class="card card-outline card-primary">
-            <div class="card-header text-center">
-                <h3 class="h3">Connexion</h3>
-            </div>
-            <?php $csrf = new CSRF($_SESSION, $config['security']['csrf']['secret_key']); 
+            <?php 
+            $csrf = new CSRF($_SESSION, $config['security']['csrf']['secret_key']);
             $csrfToken = $csrf->generateToken();
             ?>
-            <form action="/login/submit" method="post">
-                <div class="card-body">
-                    <?php if (isset($_SESSION['error'])) { ?>
-                        <div class="alert alert-danger">
-                            <?php echo $_SESSION['error']; unset($_SESSION['error']); ?>
-                        </div>
-                    <?php } ?>
-                    <div class="form-group">
-                        <label>Username</label>
-                        <input type="text" class="form-control" name="username" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Mot de passe</label>
-                        <input type="password" class="form-control" name="password" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="hidden" name="csrfToken" value="<?php echo  $csrfToken ; ?>">
-
-                        <button type="submit" class="btn btn-primary">Se Connecter</button>
-                    </div>
-                </div>
-            </form>
+ <body class="login-page bg-body-secondary">
+    <div class="login-box">
+      <div class="login-logo">
+        <a href="../index2.html"><b>Admin</b>LTE</a>
+      </div>
+      <!-- /.login-logo -->
+      <div class="card">
+        <div class="card-body">
+        <?php if (isset($_SESSION['error'])) { ?>
+            <div class="alert alert-danger">
+                <?php echo $_SESSION['error']; unset($_SESSION['error']); ?>
+            </div>
+        <?php } ?>
         </div>
+        <div class="card-body login-card-body">
+          <p class="login-box-msg">Sign in to start your session</p>
+          <form action="/login/submit" method="post">
+            <div class="input-group mb-3">
+              <input type="username" class="form-control" placeholder="username" name="username" required/>
+              <div class="input-group-text"><span class="bi bi-envelope"></span></div>
+            </div>
+            <div class="input-group mb-3">
+              <input type="password" class="form-control" placeholder="Password" name="password" required/>
+              <div class="input-group-text"><span class="bi bi-lock-fill"></span></div>
+            </div>
+            <!--begin::Row-->
+            <div class="row">
+              <div class="col-8">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                  <label class="form-check-label" for="flexCheckDefault"> Remember Me </label>
+                </div>
+              </div>
+              <!-- /.col -->
+              <div class="col-4">
+                <div class="d-grid gap-2">
+                                            <input type="hidden" name="csrfToken" value="<?php  echo  $csrfToken ; ?>"/>
+
+                  <button type="submit" class="btn btn-primary">Se connecter</button>
+                </div>
+              </div>
+              <!-- /.col -->
+            </div>
+            <!--end::Row-->
+          </form>
+
+          <!-- /.social-auth-links -->
+          <p class="mb-1"><a href="forgot-password.html">I forgot my password</a></p>
+
+        </div>
+        <!-- /.login-card-body -->
+      </div>
     </div>
- <?php   
- ?>
-    <script src="https://cdn.jsdelivr.net/npm/admin-lte@4.0.0-beta3/dist/js/adminlte.min.js"></script>
-</body>
+    <!-- /.login-box -->
+    <!--begin::Third Party Plugin(OverlayScrollbars)-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.10.1/browser/overlayscrollbars.browser.es6.min.js"
+      integrity="sha256-dghWARbRe2eLlIJ56wNB+b760ywulqK3DzZYEpsg2fQ="
+      crossorigin="anonymous"
+    ></script>
+    <!--end::Third Party Plugin(OverlayScrollbars)--><!--begin::Required Plugin(popperjs for Bootstrap 5)-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <!--end::Required Plugin(popperjs for Bootstrap 5)--><!--begin::Required Plugin(Bootstrap 5)-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <!--end::Required Plugin(Bootstrap 5)--><!--begin::Required Plugin(AdminLTE)-->
+    <script src="../../../dist/js/adminlte.js"></script>
+    <!--end::Required Plugin(AdminLTE)--><!--begin::OverlayScrollbars Configure-->
+    <script>
+      const SELECTOR_SIDEBAR_WRAPPER = '.sidebar-wrapper';
+      const Default = {
+        scrollbarTheme: 'os-theme-light',
+        scrollbarAutoHide: 'leave',
+        scrollbarClickScroll: true,
+      };
+      document.addEventListener('DOMContentLoaded', function () {
+        const sidebarWrapper = document.querySelector(SELECTOR_SIDEBAR_WRAPPER);
+        if (sidebarWrapper && typeof OverlayScrollbarsGlobal?.OverlayScrollbars !== 'undefined') {
+          OverlayScrollbarsGlobal.OverlayScrollbars(sidebarWrapper, {
+            scrollbars: {
+              theme: Default.scrollbarTheme,
+              autoHide: Default.scrollbarAutoHide,
+              clickScroll: Default.scrollbarClickScroll,
+            },
+          });
+        }
+      });
+    </script>
+    <!--end::OverlayScrollbars Configure-->
+    <!--end::Script-->
+  </body>
 </html>

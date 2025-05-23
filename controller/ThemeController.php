@@ -2,16 +2,17 @@
 namespace Application\Controller;
 
 session_start();
-require_once 'model/User.php';
-require_once 'model/Database.php';
-
+require_once  __DIR__ .'/../model/User.php';
+require_once  __DIR__ .'/../model/Database.php';
+use Application\Database;
 class ThemeController {
+
     public function showThemes() {
         if (!isset($_SESSION['user'])) {
             return redirect('login');
         }
 
-        require_once 'view/themes.php';
+        require_once './view/themes.php';
     }
 
     public function setTheme() {
@@ -26,6 +27,6 @@ class ThemeController {
         );
 
         $_SESSION['user']['theme'] = $theme;
-        return redirect('profile');
+        return  header('Location: /dashboard');
     }
 }
